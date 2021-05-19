@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import homeLogo from '../../styles/discord.svg';
-import{ addIcon }  from '../../styles/icons';
+import{ addIcon,searchIcon }  from '../../styles/icons';
 
 export const Container = styled.div`
 background: var(--dark-gray);
@@ -61,4 +61,29 @@ top: 12.5%;
 bottom: 12.5%;
 
 fill:var(--green);
+
+
+`;
+export const SearchIconWrapper = styled.div`
+position: absolute;
+
+width: 48px;
+height: 48px;
+
+left: 12px;
+top: 154px;
+border-radius:50%;
+background: var(--icon-wrapper);
+`;
+export const SearchIcon = styled(searchIcon)`
+position: absolute;
+
+
+
+left: 11.11%;
+right: 11.11%;
+top: 11.11%;
+bottom: 11.11%;
+
+fill: var(--green);
 `;

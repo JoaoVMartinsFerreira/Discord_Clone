@@ -21,7 +21,7 @@ html, border-style, #root {
      font-family:${Aksara};
 }
 html {
-    background: var(--primary);
+    background: var(--icon-wrapper);
 }
 :root {
     --primary: #2E3036;
@@ -30,6 +30,8 @@ html {
     --green: #43B581;
     --dark-gray:#202225;
     --icon-wrapper:#36393F;
+    --light-gray:#4F545C;
+    --fadded-gray:#B9BBBE;
 
 }
 `;
