@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import homeLogo from '../../styles/mqdefault.jpg';
 import { 
     arrowDown,
     smallArowDown,
@@ -12,7 +13,7 @@ import {
 export const Container = styled.div`
 position: absolute;
 width: 272px;
-height: 900px;
+height: 851px;
 left: 70px;
 top: 0px;
 
@@ -144,6 +145,106 @@ border-radius: 4px;
     top: 50px;
     left: 232px;
 }
+span {
+position: absolute;
+width: 58px;
+height: 20px;
+left: 34px;
+top: 53px;
+
+font-family: Helvetica;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: var(--fadded-gray);
+}
+`;
+export const UserPanel = styled.div`
+position: absolute;
+width: 272px;
+height: 50px;
+left: 0px;
+top: 850px;
+background: var(--medium-gray);
+
+span {
+    position: absolute;
+width: 34px;
+height: 15px;
+left: 65px;
+top: 27px;
+
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 15px;
+color: var(--fadded-gray);
+}
+#span2{
+position: absolute;
+width: 89px;
+height: 17px;
+left: 65px;
+top: 10px;
+
+font-family: Helvetica;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+}
+color: var(--white);
+`;
+
+export const AvatarContainer = styled.div`
+position: absolute;
+
+width: 32px;
+height: 32px;
+
+left: 20px;
+top: 10px;
+
+
+`;
+export const ConnecctPointer = styled.div`
+position: absolute;
+
+width: 10px;
+height: 10px;
+
+left: 22px;
+top: 22px;
+
+border-radius: 50%;
+background:  var(--green);
+`;
+export const AvatarImage = styled.div`
+position: absolute;
+width: 32px;
+height: 32px;
+left: 0px;
+top: 0px;
+border-radius: 50%;
+background: url(${homeLogo});
+
+`;
+
+export const Transparent = styled.div`
+position: absolute;
+width: 32px;
+height: 32px;
+left: 0px;
+top: 0px;
+
+border-radius: 50%;
+
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 `;
 
 // ICONES

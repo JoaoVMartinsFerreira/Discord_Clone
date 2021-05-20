@@ -14,6 +14,11 @@ import React from 'react';
      VoiceChannelContainer,
      VoiceConfigContainer,
      SpeakerIcon,
+     UserPanel,
+     AvatarContainer,
+     ConnecctPointer,
+     AvatarImage,
+     Transparent,
       } from './styles';
 
 const SideBar: React.FC = () => {
@@ -48,9 +53,23 @@ const SideBar: React.FC = () => {
 
       <VoiceConfigContainer>
         <SpeakerIcon />
+        <span>General</span>
          <GearIcon id="voiceGearconfig"/>
         <PersonIcon id="voicePersonconfig"/>
       </VoiceConfigContainer>
+
+      <UserPanel>
+      <span># 1234</span>
+      <span id="span2">yTekilla</span>
+        <AvatarContainer>
+        
+          <AvatarImage >
+          <Transparent />
+          <ConnecctPointer />
+          </AvatarImage>
+         
+        </AvatarContainer>
+      </UserPanel>
       </Container>
   );
   
