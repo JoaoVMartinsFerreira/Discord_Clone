@@ -1,6 +1,6 @@
 import React from 'react';
 
- import { Container,Nav,HomeIcon,IconWrapper,Separator,AddIconWrapper,CrossIcon } from './styles';
+ import { Container,Nav,HomeIcon,IconWrapper,Separator,AddIconWrapper,CrossIcon,SearchIconWrapper,SearchIcon } from './styles';
 
 const Navbar: React.FC = () => {
   return(
@@ -13,6 +13,9 @@ const Navbar: React.FC = () => {
           <AddIconWrapper>
             <CrossIcon />
             </AddIconWrapper>  
+            <SearchIconWrapper>
+              <SearchIcon />
+            </SearchIconWrapper>
           </Nav>
       </Container>
 
