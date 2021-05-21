@@ -19,6 +19,8 @@ import React from 'react';
      ConnecctPointer,
      AvatarImage,
      Transparent,
+     MicrophoneIcon,
+     HeadphoneIcon,
       } from './styles';
 
 const SideBar: React.FC = () => {
@@ -67,8 +69,10 @@ const SideBar: React.FC = () => {
           <Transparent />
           <ConnecctPointer />
           </AvatarImage>
-         
+         <MicrophoneIcon />
+         <HeadphoneIcon />
         </AvatarContainer>
+        <GearIcon id="gearPannel"/>
       </UserPanel>
       </Container>
   );

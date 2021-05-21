@@ -8,6 +8,8 @@ import {
     personIcon,
     gearIcon,
     speakerIcon,
+    microphoneIcon,
+    phoneIcon
 
      } from '../../styles/icons';
 export const Container = styled.div`
@@ -196,6 +198,17 @@ font-size: 14px;
 line-height: 17px;
 }
 color: var(--white);
+
+#gearPannel {
+position: absolute;
+
+width: 20px;
+height: 20px;
+
+left: 238px;
+top: 16px;
+
+} 
 `;
 
 export const AvatarContainer = styled.div`
@@ -319,6 +332,28 @@ left: 2.38%;
 right: 88.1%;
 top: 50px;
 bottom: 14.71%;
+
+fill: var(--fadded-gray);
+`;
+export const MicrophoneIcon =  styled(microphoneIcon)`
+position: absolute;
+
+width: 20px;
+height: 20px;
+left: 165px;
+
+top: 7px;
+
+fill: var(--fadded-gray);
+`;
+export const HeadphoneIcon = styled(phoneIcon)`
+position: absolute;
+
+width: 20px;
+height: 20px;
+
+left: 192px;
+top: 7px;
 
 fill: var(--fadded-gray);
 `;

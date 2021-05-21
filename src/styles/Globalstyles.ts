@@ -32,7 +32,8 @@ html {
     --icon-wrapper:#36393F;
     --light-gray:#4F545C;
     --fadded-gray:#B9BBBE;
-    --medium-gray:#292B2F;;
+    --medium-gray:#292B2F;
+    --solid-gray:  #72767D;
 
 }
 `;
