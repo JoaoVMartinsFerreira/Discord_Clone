@@ -80,10 +80,11 @@ position: absolute;
 
 
 
-left: 11.11%;
-right: 11.11%;
-top: 11.11%;
-bottom: 11.11%;
+position: absolute;
+width: 24px;
+height: 24px;
+left: 12px;
+top: 12px;
 
 fill: var(--green);
 `;

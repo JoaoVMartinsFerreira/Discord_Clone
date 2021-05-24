@@ -15,7 +15,7 @@ import {
 export const Container = styled.div`
 position: absolute;
 width: 272px;
-height: 851px;
+height: 900px;
 left: 70px;
 top: 0px;
 
