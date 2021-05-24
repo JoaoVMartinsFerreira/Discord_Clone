@@ -7,7 +7,21 @@ import React from 'react';
   Toolbar,
   BellIcon,
   PinIcon,
-  PersonIcon 
+  PersonIcon,
+  SearchBar,
+  SearchIcon,
+  AtIcon,
+  QuestionIcon,
+  DivBar,
+  EmptyMessage,
+  ChatContainer,
+  IconContainer,
+  AddCircleIcon,
+  ChatContent,
+  GiftIcon,
+  GifIcon,
+  EmojiIcon,
+
 } from './styles';
 
 const Chat: React.FC = () => {
@@ -22,8 +36,27 @@ const Chat: React.FC = () => {
           <BellIcon />
           <PinIcon />
           <PersonIcon />
+          <SearchBar>
+               <span>Search</span>
+               <SearchIcon />
+          </SearchBar>
+          <AtIcon />
+          <QuestionIcon />
         </Toolbar>
+        <DivBar />
       </Header>
+      <EmptyMessage />
+      <ChatContainer>
+        <IconContainer>
+         <AddCircleIcon />
+        </IconContainer>
+        <ChatContent>
+          <span>Message #general</span>
+          <GiftIcon />
+          <GifIcon />
+          <EmojiIcon />
+        </ChatContent>
+      </ChatContainer>
     </Container>
     
   );

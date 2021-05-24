@@ -34,6 +34,7 @@ html {
     --fadded-gray:#B9BBBE;
     --medium-gray:#292B2F;
     --solid-gray:  #72767D;
+    
 
 }
 `;
